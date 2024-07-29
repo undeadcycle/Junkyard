@@ -1,0 +1,14 @@
+Peak Memory Usage: 6661 MiB at 2024-06-15 11:38:39
+Processes using GPU memory at peak usage:
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A     29324      G   /usr/lib/xorg/Xorg                          242MiB |
+|    0   N/A  N/A     29596      G   /usr/bin/gnome-shell                         96MiB |
+|    0   N/A  N/A     30351      G   /usr/bin/gnome-text-editor                   15MiB |
+|    0   N/A  N/A     31659      G   /usr/bin/nautilus                            16MiB |
+|    0   N/A  N/A     31832      G   ...ures=SpareRendererForSitePerProcess       60MiB |
+|    0   N/A  N/A     32102      C   ...ffusion-pytorch-cuda12.1/bin/python     6100MiB |
+|    0   N/A  N/A     32309      G   ...seed-version=20240614-130101.053000      111MiB |
++---------------------------------------------------------------------------------------+
