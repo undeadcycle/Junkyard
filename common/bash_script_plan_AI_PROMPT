@@ -1,0 +1,81 @@
+Lets work together to create an outline for a bash script. Do not write any code unless explicitly prompted to. The goal of this is to create a structure for the code and determine what functions we need and want by placeing comments where each bit of code would go. Below is an example to show what I mean. It is an example of structure and how i want the project to look when completed. the items in the example do not need to be in the project we are about to start. they are there as placeholders. Please ask any question that would help clarify at any time durring the process. If we both ask each other questions and provide suggestions we should come to a quality final product by working together. I will provide the details of the project once you are confident you understand the scope of the project.
+
+
+
+#!/bin/bash
+
+###################
+# Logging & Debugging
+###################
+
+# Path/to/ & name of log file
+
+# Log function shows log message in terminal and pipes to log file. Contains time stamp and allows for formatting output (example: \n)
+
+# Initialize log
+
+# Debugging: Uncomment the following line if you want to log all terminal output (bash -x is preferred)
+
+# Trap error and write to log file
+
+# Debugging: Test the error trap by using a failing command
+
+
+###################
+# Configuration
+###################
+
+# Check if we're in the correct directory structure
+
+# Define env file path
+
+# Source the .env file if it exists
+
+# Print important variables to log
+
+###################
+# Functions
+###################
+
+# Prompt user for MODEL_PATH if not set in .env file
+
+# Write variables to .env file
+
+# log "\n" for readability
+
+# Create and activate conda environment
+
+
+# If current conda env does not match ENV_NAME; activate ENV_NAME
+
+  # When conda activate errors out requesting conda init to be run, the eval expression here makes it work without conda init.
+
+# Install PyTorch and related libraries
+
+# Install additional Python packages
+
+# Install Jupyter and create a kernel
+
+# Make folder for repo
+
+# Check if Git command exists
+
+# Clone the GitHub repository (if not already cloned)
+
+# Install the repository in editable mode
+
+# Check if .gitignore exists in the parent directory
+
+# Ensure that the auth.env and path.env files are ignored
+
+# Check if all files exist in correct location
+
+###################
+# Execution
+###################
+
+# Run make_repo_dir, clone_repo, and install_repo_editable functions
+
+# Run remove_conda_env function if prompted
+
+# Inform user of script completion and provide location of log file
